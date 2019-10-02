@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+#app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  background-color: black;
+}
+body video,
+#app video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(-2, 2);
+}
+body button,
+#app button {
+  padding: 5px;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */

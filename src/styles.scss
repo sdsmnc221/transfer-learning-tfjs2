@@ -1,0 +1,30 @@
+$primary-color: white;
+$bg: black;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+#app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  color: $primary-color;
+  background-color: $bg;
+
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(-2, 2);
+  }
+
+  button {
+    padding: 5px;
+    margin: 10px;
+  }
+}
